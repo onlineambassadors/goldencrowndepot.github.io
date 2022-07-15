@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6.0" type="module" method="upgrade" client="site">
+	<name>ARI Image Slider</name>
+	<author>ARI Soft</author>
+	<creationDate>September 2012</creationDate>
+	<copyright>ARI Soft</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@ari-soft.com</authorEmail>
+	<authorUrl>www.ari-soft.com</authorUrl>
+	<version>1.7.0</version>
+	<description>ARI_IMAGE_SLIDER_MODULE</description>
+	<scriptfile>script.php</scriptfile>
+	<files folder="install">
+		<filename module="mod_widgetread_twitter">mod_widgetread_twitter.php</filename>
+		<filename module="mod_widgetread_twitter">mod_widgetread_twitter.xml</filename>
+	</files>
+</extension>
